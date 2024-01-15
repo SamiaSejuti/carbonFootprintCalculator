@@ -7,5 +7,7 @@ password: happymushroom
 
 # What I Learned
 -Building application using React.js (Routing, separation of concern, layouts, etc.)
+
 -Hosting website in Azure
+
 -Link website to MYSQL database
