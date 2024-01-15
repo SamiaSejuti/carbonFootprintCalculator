@@ -1,0 +1,40 @@
+.svg-container-bar {
+    margin-top: -20px;
+    margin-right: 50px; 
+    margin-left: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tooltip {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  @media (prefers-contrast: more) {
+    .tooltip {
+      background-color: white;
+      -webkit-backdrop-filter: none;
+      backdrop-filter: none;
+    }
+  }
+  
+
+
+svg {
+    width: 100%;
+    height: 100%;
+}

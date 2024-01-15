@@ -1,0 +1,115 @@
+
+.your_carbon_fp {
+    display: flex;
+    color: #077341;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;  
+    font-size: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.co2_text {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    margin-top: 1px;
+    margin-bottom: 5vh;  
+    font-weight: bold;
+    font-size: 60px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%; 
+    height: 20%;
+    min-height: 30vh;;
+    margin-left: 6.4vw;
+}
+
+.pie-chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%; 
+    height: 20%;
+    min-height: 30vh;;
+    margin-left: 10vw;
+}
+
+.bar-chart-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.compare_cons {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.125rem;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    text-align: center;
+    margin-top: 5vh; 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    
+}
+
+.postcode_container {
+    font-size: 38px;
+    color: #077341;
+    display: flex;
+    align-items: center;
+    gap: 60px; 
+}
+
+
+
+.postcode_container select {
+    padding: 5px;
+    width: 1000px;
+    font-size: 30px;
+    
+}
+
+
+.postcode_container button {
+    font-size: 35px;
+    padding: 5px;
+    width: 300px;
+    background-color: #077341; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+.add_postcde_txt {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 0px;
+    font-size: 25px;
+    font-style: italic;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 100px;
+}
+
+

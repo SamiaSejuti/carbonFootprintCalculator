@@ -1,0 +1,130 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    text-align: center;
+  }
+  
+  .app-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  .app-main {
+    padding: 20px;
+  }
+
+  .container2{
+  height: 1100px;
+  position: relative;
+  background-image: url('../../public/MicrosoftTeams-image.png');
+  background-size: 40% 60%;
+  background-position: 20% 15%;
+  background-repeat: no-repeat;
+  background-color: #E8FFD6;
+  
+  
+}
+
+.highlighted-victoria {
+  color: #C07F00;
+  font-size: 1.5em; 
+  margin-left: 10px;
+}
+
+.highlighted-others {
+  color: red;
+  font-size: 1.5em; 
+}
+
+.highlighted-greener {
+  color: green;
+  font-size: 1.5em; 
+}
+
+.highlighted-victoria, 
+.highlighted-others, 
+.highlighted-greener {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.highlighted-victoria:hover, 
+.highlighted-others:hover, 
+.highlighted-greener:hover {
+  transform: scale(1.2);
+}
+
+
+  .did_u_knw{
+    position: absolute;
+    top: 76%; 
+    left: 20%; 
+    transform: translate(-50%, -50%); 
+    color: black;
+    font-size: 40px;
+    text-align: left;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .victoria_text{
+    position: absolute;
+    top: 90%; 
+    left: 32%; 
+    transform: translate(-50%, -50%); 
+    color: black;
+    font-size: 30px;
+    text-align: justify;
+    width: 40%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .want_to_contribute{
+    color: black;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 15%; 
+    left: 75%; 
+    transform: translate(-50%, -50%);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+ 
+
+.raise_awareness{
+    position: absolute;
+    top: 83%; 
+    left: 75%; 
+    transform: translate(-50%, -50%); 
+    color: black;
+    font-size: 30px;
+    text-align: justify;
+    margin-bottom: 20px;
+    width: 30%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footer {
+  background-color: #077341;
+  color: white;
+  text-align: center; 
+  padding: 2px; 
+}
+
+  
+  
+  @font-face {
+    font-family: "Playlist-Script";
+    src: url("https://db.onlinewebfonts.com/t/1fed4454352f201d52b65ca5480afb2d.eot");
+    src: url("https://db.onlinewebfonts.com/t/1fed4454352f201d52b65ca5480afb2d.eot?#iefix")format("embedded-opentype"),
+      url("https://db.onlinewebfonts.com/t/1fed4454352f201d52b65ca5480afb2d.woff2")format("woff2"),
+      url("https://db.onlinewebfonts.com/t/1fed4454352f201d52b65ca5480afb2d.woff")format("woff"),
+      url("https://db.onlinewebfonts.com/t/1fed4454352f201d52b65ca5480afb2d.ttf")format("truetype"),
+      url("https://db.onlinewebfonts.com/t/1fed4454352f201d52b65ca5480afb2d.svg#Playlist-Script")format("svg");
+  }
+  
+

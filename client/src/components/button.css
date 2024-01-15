@@ -1,0 +1,29 @@
+/* Button.css */
+.button-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 500px; 
+}
+
+.custom-button {
+  background-color: #ff4d00 ;
+  color: white;
+  padding: 30px 40px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 4px;
+  position: absolute;
+  top: 94%;
+  left: 75%; 
+  transform: translateX(-50%);
+}
+
+.custom-button:hover {
+  background-color: #0088ff;
+}
