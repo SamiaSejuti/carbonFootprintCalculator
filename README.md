@@ -12,7 +12,7 @@ password: happymushroom
 
 -Link website to MYSQL database
 
-#Run command
+# Run command
 ```
 #start server
 cd .\server\
