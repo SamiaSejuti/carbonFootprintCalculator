@@ -11,3 +11,18 @@ password: happymushroom
 -Hosting website in Azure
 
 -Link website to MYSQL database
+
+#Run command
+```
+#start server
+cd .\server\
+npm install
+npm run
+
+#start client
+cd .\client\
+npm install
+npm run
+
+#password: happymushroom
+```
